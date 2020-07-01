@@ -1,0 +1,245 @@
+@font-face {
+    font-family: TiemposHeadline;
+    src: url(../fonts/TiemposHeadline-Semibold.woff);}
+@font-face {
+    font-family: Graphik-Regular;
+    src: url(../fonts/Graphik-Regular.woff);}
+@font-face {
+    font-family: Graphik-Medium;
+    src: url(../fonts/Graphik-Medium.ttf);}
+@font-face {
+    font-family: Theinhardt-Lt;
+    src: url(../fonts/Theinhardt-Lt.woff);}
+/*
+Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff
+*/
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Graphik-Regular;
+    font-size: 20px;
+}
+* {margin:0; padding:0}
+
+/* ------ Global ------ */
+h1 {
+    font-size: 2.2em;
+    text-align: center;
+}
+h2 {
+    font-family: TiemposHeadline;
+    font-size: 3em;
+}
+h4 {
+    font-size: 3em;
+}
+h5 {
+    font-family: Graphik-Medium;
+    font-size: 1.3em;
+}
+p {
+    line-height: 1.4em;
+}
+.fontTiempos {
+    font-family: TiemposHeadline;
+}
+.fontGraphikR {
+    font-family: Graphik-Regular;
+}
+.fontGraphikM {
+    font-family: Graphik-Medium;
+}
+.fontTheinhardt {
+    font-family: Theinhardt-Lt;
+}
+
+
+/* ------ Header ------ */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 1.5vh 6% 0 6%;
+}
+header h1 {
+    font-family: TiemposHeadline;
+    text-align: center;
+    color: #27282A;
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+header li {
+    font-family: graphik-Regular;
+    padding-right: 18px;
+}
+header li a {
+    text-decoration: none;
+    color: #27282A;
+}
+header div {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 70px;
+    border: 2px solid #27282A;
+    border-radius: 4px;
+    margin-left: 18px;
+}
+header a div {
+    color: #27282A;
+}
+header div:hover {
+    background: #27282A;
+    color: #fff;
+}
+
+/* ------ firstSection ------ */
+#head h1 {
+    padding: 15vh 6% 6vh;
+}
+#head img {
+    width: 100%;
+}
+.costs {
+    margin: 16vh 6% 18vh;
+    display: flex;
+    justify-content: flex-start;
+}
+.costs p {
+    font-family: Graphik-Medium;
+    width: 50%;
+    padding-right: 12%;
+}
+.costs h4 {
+    letter-spacing: 6px;
+}
+.costs p:last-child {
+    font-family: Theinhardt-Lt;
+    opacity: 0.6;
+    line-height: 1;
+    padding-top: 12px;
+    width: 80%;
+}
+#deliverables {
+    margin: 0vh 6% 18vh;
+    display: flex;
+    justify-content: space-between;
+}
+#deliverables img {
+    width: 50%;
+    height: 50%;
+    padding-right: 4%;
+}
+#deliverables div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#deliverables div h2 {
+    padding-bottom: 4vh;
+}
+#deliverables div h5 {
+    padding-top: 2vh;
+
+}
+
+/* ------ secondSection - How it works ------ */
+#HowItWorks {
+    background: #9FA2A7;
+    margin: 0 6%;
+    padding: 0 4%;
+    display: flex;
+}
+#HowItWorks article {
+    width: 48%;
+}
+#HowItWorks ol {
+    font-family: Theinhardt-Lt;
+    line-height: 1.4;
+    margin-left: 5%;
+}
+#HowItWorks img {
+    width: 58%;
+    height: 58%;
+}
+#HowItWorks article h2 {
+    padding: 3vh 0 2vh;
+}
+#Critique {
+    margin: 16vh 0% 18vh;
+}
+#Critique h2, #Critique p {
+    text-align: center;
+    padding-bottom: 1.2vh;
+    line-height: 1.6em;
+}
+#Critique img {
+    padding-top: 14vh;
+    display: block;
+    width: 100%;
+}
+.Conversion {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 6%;
+    transform: translate(0px,-250px);
+}
+.Conversion p {
+    text-align: left;
+    width: 40%;
+    opacity: 0.6;
+}
+.Conversion img {
+    width: 50%;
+}
+footer {
+    height: 1px;
+    border-top: 1px solid #27282A;
+    transform: translate(0px,-150px);
+    margin: 0 6%;
+}
+footer h2 {
+    text-align: center;
+    padding: 16vh 0 22vh;
+}
+footer p {
+    text-align: center;
+    padding-bottom: 8vh;
+}
+footer a {
+    color: #27282A;
+    text-decoration: none;
+}
+
+
+
+
+
+/*
+
+/*Large Desktop*
+@media (min-width:1200px) {
+    
+}
+/*Normal Desktop*
+@media (min-width:1024px) and (max-width:1199px) {
+    
+}
+/*small desktop*
+@media (min-width:980px) and (max-width:1023px) {
+    
+}
+/*For tablet *
+@media (min-width:768px) and (max-width:979px)  {
+    
+}
+/*For Mobile landscape *
+@media (min-width:480px) and (max-width:767px)  {
+    
+}
+/*For Mobile  *
+@media (min-width:320px) and (max-width:479px)  {
+}
